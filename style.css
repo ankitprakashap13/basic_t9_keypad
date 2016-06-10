@@ -1,14 +1,67 @@
+
+.container {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height: 700px;
+}
+
+h1.page-title {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #e1f5fe;
+	font-size: 28px;
+}
+
+.dial-me {
+	padding: 20px;
+	background: #03a9f4;
+	border-radius: 3px;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+#result{
+	border: none;
+	color: #01579b;
+	padding: 0 10px;
+	margin: 0 1px 5px;
+	width: 100%;
+	height: 40px;
+	border-radius: 3px;
+}
+
+#phone {
+	overflow: hidden; 
+}
+
 #phone button{
 	height: 50px;
 	width: 75px;
+	border: none;
+	color: #01579b;
+	margin: 1px 1px 6px;
+	outline: none;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    -webkit-user-select: none;
+    transition: all 0.2s ease;
+}
+
+#phone button:hover {
+	/*background: #81d4fa;*/
+}
+
+#phone button:active {
+    box-shadow: 0px 0px #01579b;
+    top: 4px;
 }
 #phone button span{
 	display: block;
 	margin-top: 5px;
 	font-size: 10px;
-}
-#result{
-	width: 225px;
-	height: 25px;
-	margin-left:2px;
 }
